@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "project/ujian-a51c2/hosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
